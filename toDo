@@ -1,0 +1,105 @@
+----link do whatsapp---
+<section class="sign-up">
+  <div class="container">
+    <h1>entre em contato conosco!</h1>
+    <a
+      href="https://api.whatsapp.com/send?phone=12036327253"
+      target="_blank"
+      class="btn"
+      >CLIQUE AQUI</a
+    >
+  </div>
+</section>
+
+----participantes----
+
+<li><a href="#participants">Participantes</a></li>
+
+<section class="participants-page" id="participants">
+  <div class="container">
+    <h1 class="title">Participantes</h1>
+
+    <div class="swiper-button-prev"></div>
+    <div class="participants swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="participant swiper-slide">
+          <img src="./src/imagens/julia-vitoria.jpg" alt="participant" />
+
+          <div class="info">
+            <h1 class="name">Julia Vitória</h1>
+            <p class="office">Cantora</p>
+          </div>
+        </div>
+
+        <div class="participant swiper-slide">
+          <img src="./src/imagens/vinicius-zulato.jpg" alt="participant" />
+
+          <div class="info">
+            <h1 class="name">Vinicius Zulato</h1>
+            <p class="office">Pregador</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+  </div>
+</section>
+
+---script dos pariticipantes----
+
+<script>
+  const swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    freeMode: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      300: {
+        slidesPerView: 1,
+      },
+      620: {
+        slidesPerView: 2,
+      },
+      800: {
+        slidesPerView: 3,
+      },
+      1100: {
+        slidesPerView: 4,
+      },
+    },
+  });
+</script>
+
+----letreiro js----
+
+// const letreiroWrapper = document.querySelector('.letreiro-wrapper');
+// const letreiroTexto = document.querySelectorAll('.letreiro-texto');
+
+// letreiroWrapper.addEventListener('animationiteration', function() {
+//   letreiroTexto.forEach(texto => texto.classList.toggle('invertido'));
+// });
+
+
+// event
+
+<div class="container">
+  <h1 class="title">Próximo evento</h1>
+
+  <div data-aos="fade-up" data-aos-duration="1500" class="info-event">
+    <div class="location">
+      <p>Edmond Town Hall</p>
+      <p>
+        45 Main St<span class="unit-1">Newtown, CT 06470</span
+        ><span class="pais">United States</span>
+      </p>
+    </div>
+
+    <div class="info">
+      <p class="date">18 <span>de</span> novembro</p>
+      <p class="hour">18:00 às 22:00hrs</p>
+    </div>
+  </div>
+</div>

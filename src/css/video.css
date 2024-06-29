@@ -1,0 +1,107 @@
+.onekingdom-2023 {
+  width: 100%;
+  height: 100vh;
+  background: url(../imagens/dark-plaster-pattern.png) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.background-onekingdom {
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+
+}
+.onekingdom-2023 h1{
+  margin-top: 30px;
+  font-size:60px;
+  color: #ffffff;
+  font-family: "Oswald";
+  font-weight: 500;
+}
+.onekingdom-2023 h1:after {
+  content: "";
+  display: block;
+  border-bottom: 8px solid #fad02c;
+  width: 90px;
+}
+
+.onekingdom-2023 .video-js {
+  border-radius: 10px;
+  max-width: 1000px;
+  max-height: 460px;
+  width: 100%;
+  height: 100%;
+}
+.onekingdom-2023 p {
+    margin-top: 20px;
+  color: #ffffff;
+  font-size: 19px;
+  
+}
+.infor-onekingdom-2023 {
+  max-width: 580px ;
+  width: 100%;
+}
+@media(max-width:1024px){
+    .onekingdom-2023 .video-js {
+        border-radius: 10px;
+        max-width: 600px;
+        max-height: 350px;
+      }
+      .onekingdom-2023 p {
+      margin-top: 15px;
+      color: #ffffff;
+      font-size: 17px;
+      
+    }
+    .onekingdom-2023 h1{
+        margin-top: 30px;
+        font-size:40px;
+        color: #ffffff;
+        font-family: "Oswald";
+        font-weight: 500;
+      }
+}
+@media(max-width:774px){
+    .background-onekingdom {
+        max-width: 1440px;
+        width: 100%;
+        height: 100vh;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+      
+      }
+    .onekingdom-2023 .video-js {
+        /* border-radius: 10px;
+        max-width: 700x;
+        height: 420px; */
+      }
+      .onekingdom-2023 p {
+      margin-top: 10px;
+      color: #ffffff;
+      font-size: 13px;
+      
+    }
+    
+}
+@media(max-width:414px){
+    .onekingdom-2023 h1{
+        margin-top: 40px;
+        font-size: 30px;
+        color: #ffffff;
+        font-family: "Oswald";
+        font-weight: 500;
+      }
+}
